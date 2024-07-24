@@ -13,7 +13,6 @@
 /* color: #E6533C; */
 
 /* shared styles */
-body {}
 
 .display-flex {
     display: flex;
@@ -33,6 +32,21 @@ body {}
 
 .text-white-50 {
     color: rgba(255, 255, 255, 0.5)
+}
+
+.btn-primary {
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    border-radius: 42px;
+}
+
+.btn-secondary {
+    background: linear-gradient(180deg, #111111 100%, #777777 0%);
+    padding: 16px 40px;
+    border-radius: 42px;
+    color: #FFFFFF;
+    border: 1px solid #FFF;
 }
 
 /* header styles */
@@ -92,4 +106,54 @@ body {}
     font-size: 1.1rem;
     font-style: normal;
     line-height: 120%;
+}
+
+/* banner related styles */
+.banner {
+
+    justify-content: space-between;
+}
+
+.banner image {
+    position: fixed;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#btn-banner-1 {
+    /* width: 193px;
+    height: 98px; */
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 24px 17px;
+    margin-left: 230px;
+    margin-top: 125px;
+}
+
+
+#text-banner-2 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* Habit Section */
+.habit-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habit-number {
+    color: #FFFFFF;
+}
+
+.habit-description {
+    color: rgba(255, 255, 255, 0.5)
 }
